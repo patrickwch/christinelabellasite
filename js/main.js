@@ -45,8 +45,8 @@ sections.forEach(section => observer.observe(section));
    GitHub repository once it's created.
 ------------------------------------------------------------------- */
 
-const GITHUB_OWNER = "your-github-username"; // <-- change this
-const GITHUB_REPO = "christine-labella-website"; // <-- change this
+const GITHUB_OWNER = "patrickwch"; // <-- change this
+const GITHUB_REPO = "christinelabellasite"; // <-- change this
 const GITHUB_BRANCH = "main"; // <-- change this if using a different branch
 
 const CACHE_MINUTES = 10; // how long to reuse a cached folder listing
