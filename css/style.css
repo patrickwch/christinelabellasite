@@ -216,11 +216,15 @@ svg.icon, .meta-icon, .file-icon, .post-icon, .dl-icon, .btn-icon, .brand-icon {
   color: var(--accent);
   pointer-events: none;
 }
-.about-portrait svg:not(.portrait-ring) {
+.about-portrait svg:not(.portrait-ring),
+.about-portrait img {
   width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 50%;
   border: 1px solid var(--border);
   position: relative;
+  display: block;
 }
 .about-copy { position: relative; }
 .quote-mark {
